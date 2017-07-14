@@ -1,0 +1,37 @@
+
+@rem:20rem;
+
+.absolute(@x,@y,@w,@h){
+    position: absolute;
+    left: @x;
+    top:@y;
+    width: @w;
+    height: @h;
+}
+
+.absoluteCenter(){
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+
+html,body{
+
+}
+
+.app{
+    .absoluteCenter();
+    width: 750/@rem;
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+    color: #FFF;
+    text-align: center;
+    font-size: 30/@rem;
+}
+
+
